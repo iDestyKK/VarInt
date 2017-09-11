@@ -1,4 +1,4 @@
-#VarInt
+# VarInt
 <i>The moment you realize C++ allows you to do WAY too much.</i>
 
 C++ is a very powerful language. It allows you to utilize polymorphism in classes and structures to allow them to work with any datatype. We use ints, doubles, floats, chars, etc to store data. However, these are of a fixed size. Often in compuationally heavy programs, you will use an int and find out that you will run out of bits (As it is 32-bit) if the number goes too high. When numbers go too high, they "roll back" to 0 (if unsigned).
